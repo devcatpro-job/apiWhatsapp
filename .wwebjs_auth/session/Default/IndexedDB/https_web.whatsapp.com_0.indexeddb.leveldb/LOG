@@ -1,0 +1,2 @@
+2022/08/08-04:14:44.886 32cf Creating DB /var/www/html/apiWhatsapp/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2022/08/08-04:14:44.894 32cf Reusing MANIFEST /var/www/html/apiWhatsapp/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001

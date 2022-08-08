@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="app">
+
+        <h1> WHATSAPP API</h1>
+
+        <p>Powered by</p>
+
+        <img src="" alt="QR code" id="qrcode">
+
+        <h3>Logs</h3>
+
+        <ul class="logs"></ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            let socket = io.connect("http://localhost:8000", {path:'/socket.io'});
+
+            socket.on('message', function(msg){
+                $(".logs").append($('<li>').text(msg));
+            });
+
+            socket.on('qr', function(src){
+                console.log("SRC ", src)
+                $("#qrcode").attr("src",src)
+            })
+
+        });
+    </script>
+</body>
+</html>

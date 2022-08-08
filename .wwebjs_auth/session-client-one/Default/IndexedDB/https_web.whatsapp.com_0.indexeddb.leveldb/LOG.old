@@ -1,0 +1,11 @@
+2022/08/08-03:28:55.272 26d7 Reusing MANIFEST /var/www/html/apiWhatsapp/.wwebjs_auth/session-client-one/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/08-03:28:55.272 26d7 Recovering log #22
+2022/08/08-03:28:55.596 26d7 Reusing old log /var/www/html/apiWhatsapp/.wwebjs_auth/session-client-one/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000022.log 
+2022/08/08-03:29:11.186 26db Level-0 table #28: started
+2022/08/08-03:29:11.317 26db Level-0 table #28: 1349419 bytes OK
+2022/08/08-03:29:11.325 26db Delete type=0 #22
+2022/08/08-03:29:11.342 26db Compacting 1@1 + 2@2 files
+2022/08/08-03:29:12.757 26db Generated table #29@1: 31818 keys, 2245367 bytes
+2022/08/08-03:29:13.378 26db Generated table #30@1: 37588 keys, 1359339 bytes
+2022/08/08-03:29:13.379 26db Compacted 1@1 + 2@2 files => 3604706 bytes
+2022/08/08-03:29:13.390 26db compacted to: files[ 0 0 2 0 0 0 0 ]
