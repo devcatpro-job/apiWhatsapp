@@ -1,3 +1,3 @@
-2022/08/08-06:46:47.660 a06a Reusing MANIFEST /var/www/html/apiWhatsapp/.wwebjs_auth/session-client-dos/Default/File System/Origins/MANIFEST-000001
-2022/08/08-06:46:47.660 a06a Recovering log #3
-2022/08/08-06:46:47.660 a06a Reusing old log /var/www/html/apiWhatsapp/.wwebjs_auth/session-client-dos/Default/File System/Origins/000003.log 
+2022/08/08-18:53:49.577 3514 Reusing MANIFEST /var/www/html/apiWhatsapp/.wwebjs_auth/session-client-dos/Default/File System/Origins/MANIFEST-000001
+2022/08/08-18:53:49.608 3514 Recovering log #3
+2022/08/08-18:53:49.609 3514 Reusing old log /var/www/html/apiWhatsapp/.wwebjs_auth/session-client-dos/Default/File System/Origins/000003.log 

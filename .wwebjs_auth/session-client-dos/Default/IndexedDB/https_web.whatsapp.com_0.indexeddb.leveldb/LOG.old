@@ -1,3 +1,6 @@
-2022/08/08-06:41:04.469 9b2b Reusing MANIFEST /var/www/html/apiWhatsapp/.wwebjs_auth/session-client-dos/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/08/08-06:41:04.470 9b2b Recovering log #17
-2022/08/08-06:41:04.700 9b2b Reusing old log /var/www/html/apiWhatsapp/.wwebjs_auth/session-client-dos/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000017.log 
+2022/08/08-18:22:31.604 2778 Reusing MANIFEST /var/www/html/apiWhatsapp/.wwebjs_auth/session-client-dos/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/08-18:22:31.613 2778 Recovering log #22
+2022/08/08-18:22:33.329 2778 Reusing old log /var/www/html/apiWhatsapp/.wwebjs_auth/session-client-dos/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000022.log 
+2022/08/08-18:47:33.185 2da0 Level-0 table #28: started
+2022/08/08-18:47:34.937 2da0 Level-0 table #28: 1315187 bytes OK
+2022/08/08-18:47:35.001 2da0 Delete type=0 #22

@@ -7,7 +7,7 @@ const genqr = require("qrcode");
 const { Client, LocalAuth } = require("whatsapp-web.js");
 const socketIO = require("socket.io");
 const http = require("http");
-
+let cors = require("cors");
 require("dotenv").config();
 
 // Create Expres  s server
@@ -16,11 +16,14 @@ const server = http.createServer(app);
 const io = socketIO(server);
 
 // Express configuration
-console.log(process.env.PORT);
 app.set("port", process.env.PORT || 3000);
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
+app.use((req,res,next)=>{
+  res.setHeader('Access-Control-Allow-Origin','*');
+  next(); 
+})
 app.use(
   express.static(path.join(__dirname, "../public"), { maxAge: 31557600000 })
 );
